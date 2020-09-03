@@ -73,8 +73,11 @@
     <assembly.dir>${basedir}/src/main/assembly</assembly.dir>
     <japicmp.enabled>false</japicmp.enabled>
     <japicmp.oldVersion>1.5.0</japicmp.oldVersion>
+    <sonar.projectKey>farnulfo_passay</sonar.projectKey>
+    <sonar.organization>farnulfo-github</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
-
+         
   <dependencies>
     <dependency>
       <groupId>org.cryptacular</groupId>
